@@ -51,10 +51,10 @@ export const experiencesData = [
   //   date: "Nov 2021 - Apr 2022",
   // },
   {
-    title: "Full-Stack Developer (Xylo Inc)",
+    title: "Full-Stack Developer",
     location: "Coimbatore",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working in Xylo Inc. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - Present",
   },
