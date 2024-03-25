@@ -64,14 +64,14 @@ export const projectsData = [
   {
     title: "AARP Song Theme",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can browse through a list of themes and select three songs related to a theme and can earn rewards.",
+      "I worked as a full-stack developer on this AARP client project for a year. Users can browse through a list of themes and select three songs related to a theme and can earn rewards.",
     tags: ["React", "Astro Js", "MongoDB", "Tailwind", "GraphQL"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Adrsta Data Platfrom",
     description:
-      "I was the front-end developer. It has loading data from external source and data visulaization after analysis of data through various algorithms from backend.",
+      "I was the front-end developer for this web application. It is a Data platform which gets data from external source and shows cool visulaizations after analysis of data through various algorithms from backend.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
