@@ -30,7 +30,7 @@ export default function Contact() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-
+{/* 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me on +917680806923
         <br /> <span>(or)</span> <br />
@@ -38,7 +38,7 @@ export default function Contact() {
         <a className="underline" href="mailto:harshavardhanreddy527@gmail.com">
           harshavardhanreddy527@gmail.com
         </a>{" "}
-      </p>
+      </p> */}
 
       <form
         className="mt-10 flex flex-col dark:text-black"
