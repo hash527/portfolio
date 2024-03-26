@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Software Development Intern",
     location: "Hyderabad",
     description:
-      "I got trained on MERN Stack Development",
+      "Worked in an Agile development environment and collaborated with other developers to develop and implement various applications using JavaScript, HTML, CSS, Bootstrap and the React framework.",
     icon: React.createElement(LuGraduationCap),
     date: "2019 - 2021",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Coimbatore",
     description:
-      "I'm now a full-stack developer working in Xylo Inc. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working in Xylo Inc. My stack includes React, Next.js, TypeScript, Tailwind, GraphQL and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - Present",
   },
@@ -64,8 +64,8 @@ export const projectsData = [
   {
     title: "AARP Song Theme",
     description:
-      "I worked as a full-stack developer on this AARP client project for a year. Users can browse through a list of themes and select three songs related to a theme and can earn rewards.",
-    tags: ["React", "Astro Js", "MongoDB", "Tailwind", "GraphQL"],
+      "I worked as a full-stack developer on this AARP client project for a year. Users can browse through a list of themes and select three songs related to a theme and can earn rewards. Built the app in Monorepo architecture and able to save 40% of development time. A robust cache layer built with redis and async-dedupe cache library brought potential savings on external Api integration costs",
+    tags: ["React", "Astro Js", "MongoDB", "Tailwind", "GraphQL", "Apollo", "Redis DB", "Express Js"],
     imageUrl: corpcommentImg,
   },
   {
@@ -75,13 +75,13 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
-  // {
-  //   title: "Word Analytics",
-  //   description:
-  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-  //   imageUrl: wordanalyticsImg,
-  // },
+  {
+    title: "Sephora (Jr.Consultant)",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "SQL", "Autocannon", "Undici"],
+    imageUrl: wordanalyticsImg,
+  },
 ] as const;
 
 export const skillsData = [
@@ -98,12 +98,14 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
+  "Zustand",
   "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
+  "SQLite",
   "Python",
   "Chakra UI",
-  "Shadcn/UI"
-  
+  "Shadcn/UI",
+  "Jest"
+
 ] as const;
