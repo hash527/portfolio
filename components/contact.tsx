@@ -32,11 +32,12 @@ export default function Contact() {
       <SectionHeading>Contact me</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me on +917680806923 or mail to{" "}
+        Please contact me on +917680806923
+        <br /> <span>(or)</span> <br />
+        mail to{" "}
         <a className="underline" href="mailto:harshavardhanreddy527@gmail.com">
           harshavardhanreddy527@gmail.com
         </a>{" "}
-        or through this form.
       </p>
 
       <form
@@ -52,6 +53,7 @@ export default function Contact() {
           toast.success("Email sent successfully!");
         }}
       >
+        <h2 className="text-left font-bold text-lg mb-2">Contact Form</h2>
         <input
           className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"
