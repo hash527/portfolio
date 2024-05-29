@@ -27,13 +27,28 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  // {
-  //   name: "Contact",
-  //   hash: "#contact",
-  // },
+  {
+    name: "Contact",
+    hash: "#contact",
+  },
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Full-Stack Developer",
+    location: "Hyderabad",
+    description:
+      "I'm now a full-stack developer working in iTalent Digital. My stack includes React, Next.js, TypeScript, Tailwind, GraphQL and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "May 2022  - Feb 2024",
+  }, {
+    title: "Software Project Manager",
+    location: "Hyderabad",
+    description:
+      "Product owner of Analytics module in Taskflow CRM which was used 40k+ users. I also ensure the teams meet quality assurance goals.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Nov 2021 - Apr 2022",
+  },
   {
     title: "Software Development Intern",
     location: "Hyderabad",
@@ -42,22 +57,8 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2019 - 2021",
   },
-  // {
-  //   title: "Software Project Manager",
-  //   location: "Hyderabad",
-  //   description:
-  //     "Product owner of Analytics module in Taskflow CRM which was used 40k+ users. I also ensure the teams meet quality assurance goals.",
-  //   icon: React.createElement(CgWorkAlt),
-  //   date: "Nov 2021 - Apr 2022",
-  // },
-  {
-    title: "Full-Stack Developer",
-    location: "Coimbatore",
-    description:
-      "I'm now a full-stack developer working in Xylo Inc. My stack includes React, Next.js, TypeScript, Tailwind, GraphQL and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - Present",
-  },
+
+
 ] as const;
 
 export const projectsData = [
